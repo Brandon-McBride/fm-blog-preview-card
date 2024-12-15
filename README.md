@@ -35,8 +35,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Brandon-McBride/fm-blog-preview-card)
+- Live Site URL: [live site URL]()
 
 ## My process
 
