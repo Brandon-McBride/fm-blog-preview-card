@@ -1,0 +1,138 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: #F4D04E;
+    --color-gray-950: #111111;
+    --color-gray-500: #6B6B6B;
+    --color-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-yellow);
+}
+
+.container {
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardimage {
+    width: 100%;
+    max-width: 336px;
+    height: auto;
+    border-radius: 10px;
+    background: var(--color-yellow);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    background-color: var(--color-white);
+    width: 100%;
+    max-width: 384px;
+    height: auto;
+    border: 1px solid var(--color-gray-950);
+    box-shadow: 8px 8px 0px #000000;
+    border-radius: 20px;
+}
+
+.carddescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    max-width: 336px;
+    height: auto;
+}
+
+h3,
+.date,
+.categorytag,
+p,
+.author {
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    color: var(--color-gray-950);
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+h3:hover {
+    color: var(--color-yellow);
+}
+
+.date,
+.categorytag,
+.author {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.categorytag {
+    background-color: var(--color-yellow);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 82px;
+    height: 29px;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-gray-500);
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.authorimg {
+    width: 32px;
+    height: 32px;
+}
+
+.footer {
+    height: 2vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        max-width: 327px;
+        height: auto;
+    }
+
+    /* Title */
+    h3 {
+        font-size: 20px;
+    }
+}
