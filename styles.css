@@ -107,9 +107,12 @@ p {
 }
 
 .author {
+    width: 100%;
+    max-width: 336px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: start;
     gap: 12px;
     font-weight: 800;
     font-size: 14px;
